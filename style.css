@@ -1,0 +1,105 @@
+/* header{
+    display:flex;
+} */
+
+html {
+     box-sizing: border-box;
+     font-size: 16px;
+     font-family: "Inter", sans-serif;
+     color: var(--black);
+     scroll-behavior: smooth;
+ }
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: inherit;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: "Rubik", sans-serif;
+ }
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ol,
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+
+ ol,
+ ul {
+     list-style: none;
+ }
+
+ img {
+     max-width: 100%;
+     height: auto;
+ }
+
+ input,
+ button,
+ textarea,
+ select {
+     font: inherit;
+ }
+.flex {
+    display:flex;
+
+}
+
+.space-between{
+    justify-content:space-between;
+}
+.column{
+    flex-direction:column;
+
+}
+.logo{
+    max-width:100px;
+    width:auto;
+    
+}
+.hero{
+    background-color:rebeccapurple;
+    color:white;
+}
+.padding-small{
+    padding:8px;
+}
+.padding-mideum{
+    padding:16px;
+}
+.padding-large{
+ padding:32px;
+
+ }
+.padding-ex-large{
+    padding:64px;
+}
+
+article .icon{
+    width:24px;
+}
+.socials-icon{
+    width:32px;
+}
+.btn-primary{
+    padding:8px;
+    background-color: orange;    
+}
+
+
+    
